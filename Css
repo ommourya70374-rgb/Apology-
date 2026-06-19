@@ -1,0 +1,50 @@
+body{
+    background:#f6f1e7;
+    font-family:monospace;
+    margin:0;
+}
+
+.window{
+    width:900px;
+    margin:50px auto;
+    border:6px solid #7c4a75;
+    background:#f6f1e7;
+}
+
+.titlebar{
+    background:#7c4a75;
+    color:white;
+    padding:10px;
+    font-size:28px;
+}
+
+.content{
+    display:flex;
+}
+
+.message{
+    width:70%;
+    padding:40px;
+}
+
+.tools{
+    width:30%;
+    border-left:4px solid #7c4a75;
+}
+
+.tool{
+    padding:20px;
+    font-size:40px;
+}
+
+h1{
+    color:#7c4a75;
+}
+
+button{
+    background:#7c4a75;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    cursor:pointer;
+}
