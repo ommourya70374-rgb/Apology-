@@ -1,0 +1,26 @@
+const messages = [
+
+"I am really sorry.",
+
+"You mean a lot to me.",
+
+"I miss talking to you.",
+
+"Can we start again?"
+];
+
+let current = 0;
+
+document
+.getElementById("nextBtn")
+.addEventListener("click",()=>{
+
+current++;
+
+if(current < messages.length){
+
+document.querySelector("p")
+.innerText = messages[current];
+
+}
+});
